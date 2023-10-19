@@ -1,0 +1,11 @@
+{
+ "name": "js-playground",
+ "version": "1.0.0",
+ "description": "JS snippets",
+ "scripts": {},
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "puppeteer": "^21.3.8"
+ }
+}
