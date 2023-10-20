@@ -6,6 +6,7 @@
  "author": "",
  "license": "ISC",
  "dependencies": {
+  "html-creator": "^0.8.0",
   "puppeteer": "^21.3.8"
  }
 }

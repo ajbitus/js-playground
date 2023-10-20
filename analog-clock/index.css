@@ -1,12 +1,25 @@
+body {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-content: center;
+ justify-content: center;
+ align-items: stretch;
+ height: 100vh;
+ font-family: "Courier New", Courier, monospace;
+ margin: 0;
+}
+
 .clock {
  background: #ececec;
  width: 300px;
  height: 300px;
- margin: 8% auto 0;
+ margin: auto;
  border-radius: 50%;
  border: 14px solid #333;
  position: relative;
  box-shadow: 0 2vw 4vw -1vw rgba(0, 0, 0, 0.8);
+ aspect-ratio: 1;
 }
 
 .dot {
@@ -71,7 +84,6 @@ span {
  position: absolute;
  color: #333;
  font-size: 22px;
- font-family: "Poiret One";
  font-weight: 700;
  z-index: 4;
 }
@@ -81,15 +93,18 @@ span {
  left: 50%;
  margin-left: -9px;
 }
+
 .h3 {
  top: 140px;
  right: 30px;
 }
+
 .h6 {
  bottom: 30px;
  left: 50%;
  margin-left: -5px;
 }
+
 .h9 {
  left: 32px;
  top: 140px;
@@ -105,6 +120,7 @@ span {
  margin-left: -1px;
  transform-origin: 50% 150px;
 }
+
 .diallines:nth-of-type(5n) {
  position: absolute;
  z-index: 2;
@@ -129,16 +145,18 @@ span {
  top: 200px;
  left: 50%;
  margin-left: -60px;
- font-family: "Poiret One";
+ /* font-family: "Poiret One"; */
  font-weight: 700;
  z-index: 3;
  letter-spacing: 3px;
  margin-left: -60px;
  left: 50%;
 }
+
 .date {
  top: 80px;
 }
+
 .day {
  top: 200px;
 }
